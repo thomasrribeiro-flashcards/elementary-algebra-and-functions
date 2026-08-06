@@ -8,7 +8,7 @@ unresolved_dependencies: 0
 - Target: `flashcards/01_variables_and_expressions.md`, read in scheduled order.
 - Learner: novice in algebra.
 - Allowed inbound subject knowledge: only the complete staged
-  `mathematics/quantitative-reasoning-and-arithmetic` deck resolved by
+  `mathematics/number-sense-and-arithmetic` deck resolved by
   `.flashcards/prerequisites/graph.json` in whole-deck mode.
 - Allowed tools: none.
 - Confirmed inbound capabilities actually used: quantities and whole-number

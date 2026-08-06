@@ -8,7 +8,7 @@ pilot_chapter = 1
 created = "2026-07-19"
 
 [prerequisites]
-decks = ["mathematics/quantitative-reasoning-and-arithmetic"]
+decks = ["mathematics/number-sense-and-arithmetic"]
 recommended_decks = []
 assumed_tools = []
 

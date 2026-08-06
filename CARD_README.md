@@ -8,7 +8,7 @@ canonical general guidance.
 
 - Level: foundational novice in algebra.
 - Confirmed mathematical prerequisites: the complete
-  `mathematics/quantitative-reasoning-and-arithmetic` deck.
+  `mathematics/number-sense-and-arithmetic` deck.
 - Confirmed tools: none.
 - Capabilities this deck should produce: translate among verbal, symbolic,
   numerical, tabular, and graphical representations; select, execute, and check

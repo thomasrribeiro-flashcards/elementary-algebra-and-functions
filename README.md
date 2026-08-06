@@ -9,7 +9,7 @@ elementary nonlinear models fluently and interpretively.
 - Learner level: foundational; designed for a novice who has completed the
   prerequisite arithmetic deck but has not studied algebra.
 - Confirmed mathematical prerequisites: the complete
-  `mathematics/quantitative-reasoning-and-arithmetic` deck, including arithmetic
+  `mathematics/number-sense-and-arithmetic` deck, including arithmetic
   expressions and operation order; signed, fractional, and decimal arithmetic;
   ratios and proportional tables; percent; units; estimation; and inverse-operation
   checks.
