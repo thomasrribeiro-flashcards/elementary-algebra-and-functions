@@ -13,19 +13,25 @@ canonical general guidance.
 - Capabilities this deck should produce: translate among verbal, symbolic,
   numerical, tabular, and graphical representations; select, execute, and check
   elementary algebraic methods; interpret functions and model parameters; and
-  distinguish linear from elementary nonlinear structure.
+  distinguish linear, quadratic, rational, exponential, and logarithmic
+  structure.
 - Important exclusions: formal proof, geometry theory, calculator-dependent
-  graphing, rational and radical function analysis, logarithms, trigonometry,
-  complex numbers, and long multi-step applications better practiced outside SRS.
+  graphing, advanced radical and rational-function analysis, trigonometry,
+  complex numbers, sequences, conic sections, and long multi-step applications
+  better practiced outside SRS.
 
-Unconfirmed algebra knowledge is not mastered. The pilot gate permits authoring
-only Chapter 1 until a human approves it.
+Unconfirmed algebra knowledge is not mastered. All chapters remain empty
+curriculum scaffolds. The next content job must author Chapter 1 as the pilot and
+stop for review before any later chapter is eligible.
 
 ## Curriculum and prerequisite graph
 
 The full arithmetic deck is a hard deck prerequisite. Chapter 1 adds no local
-chapter edge; later chapters must declare their own actual concept or chapter
-edges when authored. File order alone never grants inbound knowledge.
+chapter edge. The remaining scaffold declares only the chapter edges needed to
+resolve its capabilities; file order alone never grants inbound knowledge. The
+14-chapter plan stays within the subject's course-size band and extends the
+original 12-chapter estimate so rational and logarithmic functions required by
+the subject roadmap are not hidden inside one overloaded nonlinear chapter.
 
 Rejected boundary choices:
 
@@ -33,37 +39,19 @@ Rejected boundary choices:
   to make the symbolic-language pilot appear more advanced.
 - Signed multiplication is not assumed from the prerequisite's signed-addition
   chapter, so the pilot evaluates expressions only at nonnegative values.
-- Geometry formulas, rational expressions, radicals, and quadratic examples are
-  reserved for chapters whose dependency chains establish them.
+- Geometry formulas and quadratic examples are reserved for chapters whose
+  dependency chains establish them. Elementary square roots enter only with
+  quadratic solving; radical-function analysis remains a precalculus handoff.
+- Rational expressions and functions are reserved for Chapter 13, after factoring
+  and domain language. Exponential and logarithmic functions are reserved for
+  Chapter 14, after exponent properties and function representations.
 
 ## Concept-dependency ledger — pilot
 
-Front numbers refer to the scheduled order in
-`flashcards/01_variables_and_expressions.md`.
-
-| Concept or representation | Front(s) requiring it | Confirmed inbound source or first explanation | First supported retrieval | Later application | Status |
-|---|---|---|---|---|---|
-| Quantity, numeral, and whole-number arithmetic | 1, 5, 9, 11, 13–18 | Arithmetic deck Chapters 1–3 | Inbound | Throughout pilot | ready |
-| Arithmetic expression, grouping, powers, and operation order | 3, 9–12, 16, 18 | Arithmetic deck Chapter 4 | Inbound | Expression evaluation | ready |
-| Equals sign as an equality claim | 3–4 | Arithmetic deck Chapter 2 | Inbound | Expression/equation discrimination | ready |
-| Table rows representing paired values | 18 | Arithmetic deck Chapter 8; Front 18 also states what the table records | Front 18 | Later functions chapters | ready |
-| IPEE problem labels and inverse/size checks | 11, 16, 18 | Repeatedly established in the arithmetic deck | Inbound | All pilot problems | ready |
-| Variable | 1–18 | Front 1 defines the term and maps `n` to a known count | Front 2 | Fronts 3–18 | ready |
-| Algebraic expression | 3, 6–18 | Front 3 defines it and contrasts it with an equality claim | Front 3 | Fronts 6–18 | ready |
-| Equation | 4 | Front 4 defines it before asking for identification | Front 4 | Reserved for Chapters 3–4 | ready |
-| Juxtaposed multiplication such as `4x` | 5–18 | Front 5 explains that `4x` means `4 times x` | Front 5 | Fronts 6–18 | ready |
-| Term | 6–8 | Front 6 defines separation by addition or subtraction | Front 6 | Coefficient and constant interpretation | ready |
-| Coefficient | 7, 17 | Front 7 defines the numerical factor multiplying a variable | Front 7 | Front 17 | ready |
-| Constant term | 8 | Front 8 defines a term with no variable | Front 8 | Later expression rewriting | ready |
-| Substitution | 9–12, 16, 18 | Front 9 demonstrates replacement before asking for the resulting value | Front 9 | Fronts 10–12, 16, 18 | ready |
-| Evaluation of an algebraic expression | 9–12, 16, 18 | Front 9 gives an analyzed example; Front 10 names the procedure | Front 9 | Problems 11, 16, and 18 | ready |
-| One variable has one chosen value within an evaluation | 12 | Front 12 states the convention before asking why both occurrences match | Front 12 | Later equation and function work | ready |
-| “More than,” “less than,” and “times” translation | 13–16 | Each of Fronts 13–15 explains one phrase before asking for its expression | Fronts 13–15 | Context problem 16 | ready |
-
-Rejected pilot examples included function notation `f(x)`, coordinate graphs,
-slope, negative substitution values, area formulas, and quadratic contexts. Each
-would require a later chapter or a needless prerequisite chain for the pilot's
-actual target.
+The pilot content ledger will be authored with Chapter 1. Its allowed inbound
+knowledge is limited to the resolved `mathematics/number-sense-and-arithmetic`
+closure. Function notation, coordinate graphs, slope, and quadratic contexts
+remain outside the pilot frontier.
 
 ## Retrieval portfolio
 
@@ -72,64 +60,64 @@ translation among authentic representations, method selection, error diagnosis,
 and short checked execution. Likely interference pairs are handled only after both
 members are established: expression/equation, coefficient/exponent,
 additive/multiplicative comparison, solution/value, relation/function,
-rate/intercept, and linear/quadratic/exponential change.
+rate/intercept, linear/quadratic/rational/exponential change, and
+exponent/logarithm.
 
 ## Chapter design ledger
 
-Rows for Chapters 2–12 are plans only. Their cards and figures remain unauthored
-behind the pilot gate.
+All rows are plans only. Their cards and figures remain unauthored behind the
+pilot gate. Form choices are candidate roles, not quotas.
 
-| Chapter | Retrieval targets | Basic-card roles | Cloze candidates | Problem progression | Representations and figure opportunities |
+| Chapter | Purpose and learner capability | Retrieval targets and planned forms | Problem or application progression | Representations and figure opportunities | Boundary or handoff |
 |---|---|---|---|---|---|
-| 1. Variables and expressions | Variable meaning; expression/equation distinction; terms, coefficients, constants; substitution; evaluation; short verbal translation | Definitions with inference, symbolic interpretation, translation, and misconception diagnosis | None: every target requires interpretation or a procedure, not isolated exact wording | Analyzed substitution on Front 9 → scaffolded calculation on Problem 11 → independent contextual translation/evaluation on Problem 16 → tabular transfer on Problem 18 | Verbal, symbolic, numerical, contextual, and Markdown table included. Omit unknown-bag drawing: text already supplies the relationship. Omit expression tree: prerequisite already established tree grammar and no new visual decision results. Omit substitution arrows: the symbolic before/after sequence is clearer and accessible without an asset. |
-| 2. Equivalent expressions | Operation properties, distributive property, like terms, equivalence checks | Explain why rewrites preserve value; diagnose non-equivalent rewrites | Possible exact property names only after meaning is established; otherwise none | Analyzed distribution → combine-like-terms completion → independent rewrite → mixed equivalence discrimination | Symbolic and numerical-check tables. Candidate area model: include if it tests distribution rather than geometry; candidate expression tree: include only for structure translation. |
-| 3. Equations and equality | Solution meaning, balance principle, one-step inverse operations, verification | Interpret and diagnose balance moves | None anticipated; equation solving is procedural | Analyzed balance → completion → one-step independent equations → mixed operation choice | Symbolic, verbal, and balance representation. Candidate balance-scale figure: include for equality-preserving transformations; omit decorative scales. |
-| 4. Multi-step equations and formulas | Simplify then isolate, variables on both sides, identities/contradictions, rearranging formulas | Method choice, step justification, special-case discrimination | None anticipated | Fully analyzed multi-step equation → faded plan → independent formula rearrangement → mixed cases | Symbolic and contextual formulas. Candidate flow/reversal diagram: include only if it supports inverse-operation selection. |
-| 5. Inequalities and solution sets | Inequality meaning, boundary inclusion, negative reversal, interval and number-line interpretation | Explain direction changes; interpret and diagnose graphs | Compact inequality-symbol meanings may become clozes after visual meaning is learned | Analyzed one-step inequality → graph completion → independent solve/check → mixed equation/inequality choice | Symbolic and number-line representations. Include distinct open/closed-boundary and reversal figures if each supports a separate retrieval decision. |
-| 6. Coordinate plane and relations | Axes, origin, ordered-pair order, scale, plotted solution sets | Figure reading, representation translation, scale diagnosis | None anticipated | Guided plotting → read a point → independent table-to-plot → mixed equation/graph check | Tables, ordered pairs, coordinate graphs. Include coordinate-plane figures for point reading, scale interpretation, and equation-solution membership; these are distinct visual roles. |
-| 7. Functions across representations | Exactly-one-output rule, input/output, domain, range, notation, representation translation | Function/non-function discrimination and contextual interpretation | Function-notation components may be clozed only after conceptual establishment | Mapping analysis → table completion → notation evaluation → mixed representation discrimination | Verbal rules, mappings, tables, graphs, formulas. Include mapping and vertical-line-test figures for distinct decisions; omit figures that merely restate a table. |
-| 8. Proportional and linear functions | Constant rate, initial value, proportional versus non-proportional linear relationships | Interpret parameters and compare representations | None anticipated | Analyze arithmetic-deck proportional table → infer rate → independent linear model → mixed linear/nonlinear discrimination | Tables, graphs, equations, contexts. Include proportional/non-proportional graph comparison and rate triangles if each tests a separate translation. |
-| 9. Equations of lines | Slope from points/tables/graphs, intercepts, equation forms, building a line | Method selection and parameter interpretation | Exact form names may be clozed only if useful after meaning is stable | Analyzed line construction → missing-parameter completion → independent equation → mixed form choice | Coordinate graphs, tables, equations. Include slope and intercept figures; use separate figures only where the visual decisions differ. |
-| 10. Systems of linear equations | Shared solution, graphing/substitution/elimination choice, no/one/many solutions | Interpret intersections and choose methods | None anticipated | Analyzed graph → substitution completion → elimination independent → mixed method selection | Paired equations and overlaid graphs. Include intersection and parallel/coincident figures; visual configuration is the target. |
-| 11. Exponents and polynomial expressions | Exponent laws, repeated factors, simple exponential change, polynomial vocabulary and operations | Explain law conditions; contrast additive and multiplicative change | A few compact exponent laws may be clozed after derivation; no quota | Numeric pattern analysis → law completion → polynomial operation → mixed linear/exponential choice | Symbolic, tables, and graphs. Include linear/exponential table or graph comparison if it tests growth structure; omit decorative growth imagery. |
-| 12. Factoring, quadratics, and nonlinear models | Factoring as reverse multiplication, zeros, elementary quadratic solutions, graph features, model-family contrast | Structure recognition, method choice, boundary checks | Quadratic formula is intentionally omitted at this level unless later review changes the boundary | Area/product analysis → factor completion → independent zero-product solve → mixed linear/quadratic/exponential model choice | Symbolic, tables, and parabolic graphs. Include factor-area model, zero/intercept graph, and model comparison only when each earns a distinct retrieval role. |
+| 1. Variables and expressions | Read algebra as meaningful notation and evaluate a represented quantity. | Variable meaning; expression/equation distinction; terms, coefficients, constants; substitution; evaluation; verbal translation. Candidate basic reasoning and IPEE problems; no form quota. | Analyzed substitution → scaffolded calculation → independent contextual translation/evaluation → tabular transfer. | Verbal, symbolic, numerical, contextual, and tabular representations. Figure decisions are deferred to pilot authoring. | Function notation, coordinates, slope, and negative substitution remain downstream. |
+| 2. Equivalent expressions | Rewrite an expression without changing the quantity it represents. | Operation properties, distribution, like terms, equivalence, and error diagnosis; primarily basic reasoning cards, with property-name clozes only after meaning is established. | Analyzed distribution → like-term completion → independent simplification → mixed equivalent/non-equivalent discrimination. | Symbolic forms and numerical-check tables. Candidate area model for distribution and expression tree for structure, each included only if it tests translation rather than geometry. | Equation solving is deferred; this chapter changes form, not the value sought. |
+| 3. Equations and equality | Interpret and solve one-step equations while preserving equality. | Solution meaning, equality-preserving moves, inverse-operation choice, and substitution checks; basic reasoning plus IPEE problems, no planned cloze. | Analyzed balance move → completion → independent one-step equations → mixed operation choice and error diagnosis. | Symbolic, verbal, and balance representations. Candidate balance-scale figures earn inclusion only for equality-preserving transformations. | Multi-step simplification and variables on both sides belong to Chapter 4. |
+| 4. Multi-step equations and formulas | Combine simplification and inverse operations to isolate a quantity and rearrange formulas. | Multi-step linear equations, variables on both sides, formula rearrangement, identity/contradiction cases; basic method-choice cards and IPEE problems, no planned cloze. | Fully analyzed equation → faded plan → independent formula rearrangement → mixed one/none/all-solution cases. | Symbolic equations and contextual formulas. Candidate operation-flow diagram only if it supports reversal-method selection. | Formal proof is excluded; quadratic and rational equations wait for their structures. |
+| 5. Inequalities and solution sets | Solve and represent one-variable constraints rather than single-value equalities. | Inequality meaning, boundary inclusion, negative reversal, checking, number-line graphs, and interval notation; basic figure interpretation and problems; compact symbol clozes only after visual meaning is stable. | Analyzed one-step inequality → boundary/graph completion → independent solve/check → mixed equation/inequality selection. | Symbolic, interval, and number-line forms. Separate open/closed-boundary and negative-reversal figures have distinct retrieval roles. | Systems of inequalities and optimization are outside this deck. |
+| 6. Coordinate plane and relations | Treat ordered pairs as solutions and translate tables or equations into plotted relations. | Axes, origin, ordered-pair order, scale, relation, and solution membership; figure-reading and translation basics plus plotting problems, no planned cloze. | Guided plotting → read a point and scale → independent table-to-plot → mixed equation/graph membership check. | Tables, ordered pairs, and coordinate graphs. Point reading, scale diagnosis, and equation-solution membership need separate figure opportunities. | Function tests and function notation wait for Chapter 7. |
+| 7. Functions across representations | Decide when each allowed input has exactly one output and move among function representations. | Function/non-function discrimination, input/output, domain/range, notation, evaluation, and representation translation; basic reasoning and IPEE translation, with notation clozes only after conceptual establishment. | Mapping analysis → table completion → notation evaluation → mixed verbal/table/graph/formula discrimination. | Verbal rules, mappings, tables, graphs, and formulas. Mapping and vertical-line-test figures support distinct decisions; table-restatement figures are omitted. | Transformation families and inverse-function theory are reserved for precalculus. |
+| 8. Proportional and linear functions | Generalize inbound proportional reasoning to linear functions with constant rate and possible nonzero initial value. | Proportional versus non-proportional linear structure, rate of change, initial value, parameters, and model interpretation; basic comparisons and modeling problems, no planned cloze. | Analyze an inbound proportional table → infer rate → build an independent linear model → mixed linear/nonlinear discrimination. | Tables, graphs, equations, and contexts. Proportional/non-proportional graph comparison and rate triangles are separate figure opportunities. | Detailed line forms follow in Chapter 9; statistics-style regression is excluded. |
+| 9. Equations of lines | Construct and interpret a line from points, rates, tables, graphs, or contexts. | Slope, intercepts, slope-intercept, point-slope, and standard forms; basic parameter interpretation, possible form-name clozes after meaning, and method-selection problems. | Analyzed line construction → missing-parameter completion → independent equation → mixed representation/form choice. | Coordinate graphs, tables, and equations. Slope and intercept figures are separate when the visual decisions differ. | Parallel/perpendicular geometry is a neighboring geometry/precalculus topic except where needed to read slopes. |
+| 10. Systems of linear equations | Interpret a shared solution and choose graphing, substitution, or elimination appropriately. | System solution, method cues, no/one/many solutions, and checks; basic graph interpretation and IPEE method-selection problems, no planned cloze. | Analyzed intersection → substitution completion → independent elimination → mixed method and solution-case selection. | Paired equations and overlaid graphs. Intersection, parallel, and coincident configurations are distinct visual targets. | Larger systems and matrix methods belong to linear algebra. |
+| 11. Exponents and polynomial expressions | Extend arithmetic powers and expression laws to algebraic exponent and polynomial structure. | Exponent properties with conditions; monomial/polynomial vocabulary; degree; addition, subtraction, and multiplication; basic explanations, a few compact law clozes after derivation, and operation problems. | Numeric pattern analysis → supported law use → polynomial-operation completion → independent mixed simplification. | Symbolic expressions, factor/product structure, and coefficient tables. Area/product figures are candidates for polynomial multiplication; growth graphs wait for Chapter 14. | Factoring, roots, and polynomial functions are deferred to Chapter 12; negative/fractional exponents are precalculus depth. |
+| 12. Factoring and quadratic functions | Connect products, factors, zeros, solution methods, and parabolic graphs. | Common-factor and trinomial factoring; zero-product property; square roots; completing the square; quadratic formula; discriminant-level solution cases; quadratic features. Basic structure/method cards, possible formula cloze only after derivation, and IPEE problems. | Product-area analysis → factoring completion → independent zero-product solve → method selection among factoring, square roots, completing the square, and formula → graph/equation transfer. | Symbolic forms, tables, product/area models, and parabolic graphs. Factor-area, zero/intercept, vertex, and model-comparison figures each require separate review. | Complex roots and radical-function analysis are excluded; richer polynomial behavior belongs to precalculus. |
+| 13. Rational expressions and functions | Treat quotients of polynomials as expressions with excluded inputs and connect algebraic restrictions to graph behavior. | Denominator restrictions, simplification, elementary operations, extraneous-solution checks, reciprocal/inverse-variation models, zeros, holes, and vertical asymptotes; basic diagnosis and IPEE problems, no formula cloze planned. | Analyze a numeric rational analogy → restriction/simplification completion → independent simple rational equation → mixed symbolic/graph/domain discrimination. | Symbolic expressions, domain statements, tables, and reciprocal-type graphs. Hole-versus-intercept and asymptote figures have distinct visual roles. | Polynomial long division, oblique asymptotes, and full rational-function analysis are deferred to precalculus. |
+| 14. Exponential and logarithmic functions | Model repeated multiplicative change and interpret logarithms as inverse exponent questions. | Exponential growth/decay, initial value and factor, percent change, exact tables/graphs, logarithm meaning, inverse operation, and elementary exact equations; basic contrasts, limited notation clozes after meaning, and modeling problems. | Analyze repeated multiplication → identify growth/decay parameters → build and compare exact models → solve supported exponential/logarithmic equations → mixed linear/quadratic/exponential discrimination. | Verbal, symbolic, tabular, and graph forms. Linear-versus-exponential, growth-versus-decay, and exponential/logarithmic inverse graph pairs are separate figure opportunities. | Calculator-dependent approximation, change of base, inverse-function theory, and advanced transformations belong to precalculus. |
 
 ## Initial-learning path
 
-Chapter 1 begins with a scheduled front that defines a variable and gives it a
-concrete numerical meaning. Every later new term is similarly defined on a front
-that permits inference before a less-supported retrieval. Substitution is first
-shown as a replacement step; the learner then retrieves the procedure, completes a
-scaffolded problem, applies it in context, and transfers it to a table. No heading,
-lesson paragraph, or unscheduled figure is relied upon for instruction.
+The pilot must begin with a scheduled front that defines a variable and gives it
+a concrete numerical meaning. Every later new term must likewise be established
+on a scheduled front before less-supported retrieval or application.
 
 ## Figure policy and pilot decision
 
 Figures will be authored in TikZ and compiled to accessible SVG when visual
-inspection is itself the retrieval target. Chapter 1 deliberately has no figure:
-its symbolic transformations remain legible at phone width, and a drawing would
-not change the grading decision. The authentic table on Problem 18 is live text,
-which is more accessible and easier to inspect than a rasterized or SVG table.
+inspection is itself the retrieval target. The pilot agent must record each
+include/omit decision before publication.
 
 ## Planned-versus-actual reconciliation
 
 | Chapter | Planned card types | Actual card types | Planned problems | Actual problems | Planned figures | Actual figures | Reconciliation |
 |---|---|---|---|---|---|---|---|
-| 1 | 15 basic, 0 cloze, 3 problem | 15 basic, 0 cloze, 3 problem | Analyzed bridge plus scaffolded, independent contextual, and tabular transfer | Front 9 analyzed bridge; Problems 11, 16, and 18 provide the planned progression | 0 included; three candidates intentionally omitted in the design ledger | 0 | Exact match; omissions are explained and no visual retrieval target is lost. |
-| 2–12 | Planned in the chapter design ledger | 0 | Planned only | 0 | Opportunities inventoried, include/omit decisions deferred until authoring | 0 | Expected under the pilot gate; no later chapter card or asset was authored. |
+| 1–14 | Planned in the chapter design ledger | 0 | Planned only | 0 | Opportunities inventoried; final include/omit decisions deferred until single-chapter authoring | 0 | Expected before the new pilot; every scaffold is empty. |
 
 ## Sources and accuracy
 
-The deck-local source register is in `README.md`. Pilot computations were checked
-by direct substitution and arithmetic against the resolved prerequisite closure.
+The deck-local source register is in `README.md`. Content-level verification will
+be recorded by each chapter job.
 
 ## Validation gate
 
 Before handoff:
 
-1. Run `flashcards deck stabilize . --check`.
-2. Run `flashcards deck validate .`.
-3. Confirm no later chapter or figure was created.
-4. Reconcile planned versus actual card types, problems, and figures.
-5. Complete `.flashcards/audits/pilot-cold-start.md` front by front.
-6. Run `git diff --check` and review the complete diff.
+1. Run deterministic prerequisite and deck validation.
+2. Confirm chapter orders and dependency references are unique, resolvable, and
+   acyclic.
+3. Confirm Chapters 1–14 contain frontmatter, a title, and zero scheduled cards.
+4. Confirm no figure assets exist before pilot generation.
+5. Run `git diff --check` and review the complete diff.
+
+Card or figure generation begins only through a separate approved pilot or
+single-chapter authoring job.
