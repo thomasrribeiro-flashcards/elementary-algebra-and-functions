@@ -20,9 +20,8 @@ canonical general guidance.
   complex numbers, sequences, conic sections, and long multi-step applications
   better practiced outside SRS.
 
-Unconfirmed algebra knowledge is not mastered. All chapters remain empty
-curriculum scaffolds. The next content job must author Chapter 1 as the pilot and
-stop for review before any later chapter is eligible.
+Unconfirmed algebra knowledge is not mastered. Chapter 1 is the novice-first
+pilot; every later chapter remains behind the pilot approval gate.
 
 ## Curriculum and prerequisite graph
 
@@ -48,10 +47,39 @@ Rejected boundary choices:
 
 ## Concept-dependency ledger — pilot
 
-The pilot content ledger will be authored with Chapter 1. Its allowed inbound
-knowledge is limited to the resolved `mathematics/number-sense-and-arithmetic`
-closure. Function notation, coordinate graphs, slope, and quadratic contexts
-remain outside the pilot frontier.
+Allowed inbound knowledge is limited to the validator-resolved capabilities of
+`mathematics/number-sense-and-arithmetic`: quantities and whole numbers; the four
+arithmetic operations; inverse-operation checks; arithmetic expressions and
+operation order; whole-number powers; signed numbers and signed addition and
+subtraction; fraction and decimal operations; ratios, rates, proportions, and
+percents; and measurement, units, and quantitative reasonableness. The external
+card bodies are not present in this isolated run, so no vocabulary beyond those
+declared capabilities is inferred. In particular, signed multiplication is not
+assumed.
+
+The pilot sequence below freezes the concept frontier before card authoring.
+Front labels refer to the intended first-learning order in Chapter 1.
+
+| New concept, notation, or representation | First scheduled explanation | First supported retrieval | Later application | Status |
+|---|---|---|---|---|
+| A letter standing for a number; **variable** | F01 explains that a letter can stand for a concrete number and names it a variable. | F01 retrieves the represented number; F02 retrieves the meaning of variable. | F03 onward | pass |
+| **Algebraic expression** | F03 contrasts inbound arithmetic expressions with an expression that contains a variable. | F03 classifies `3 + x`; F04 interprets what it instructs the reader to do. | F06 onward | pass |
+| **Equation** and equals-sign assertion | F05 defines an equation as a statement that uses an equals sign to say two quantities have the same value. | F05 selects the equation; F06 discriminates equation from expression. | F11 onward | pass |
+| **Term** | F07 explains the simple top-level sum-of-terms reading without generalizing through nested grouping. | F07 identifies the terms of `x + 7`. | F09–F10 and later translations | pass |
+| Juxtaposition `4x` meaning `4 × x`; **coefficient** | F08 states the notation and defines the number multiplying a variable as its coefficient. | F08 identifies the coefficient of `4x`. | F10, F13–F14, F16–F17, F20 | pass |
+| **Constant term** | F09 defines it as a term with no variable. | F09 identifies the constant term of `4x + 7`. | F10, F13–F14, F16–F17 | pass |
+| **Substitution** | F11 defines substitution as replacing a variable with its given number. | F11 produces an arithmetic expression after substitution. | F12–F14, F17–F18, F20 | pass |
+| **Expression evaluation** and expression value | F12 explains that evaluating means calculating the expression's number after substitution. | F12 evaluates a one-operation expression. | F13–F14, F17–F18 | pass |
+| Verbal-to-symbolic translation | F15 self-bridges “add 6 to a number”; F16 extends to multiplication followed by addition. | F15 and F16 each retrieve one expression. | F17 and F19 | pass |
+| Context-to-expression translation | F17 states every contextual quantity and asks for one complete translation-and-evaluation task. | F17 | Closing discrimination | pass |
+| Two-column value table | F18 explains on its front what each column records. | F18 completes one missing value by substitution and evaluation. | Later function tables are intentionally deferred to Chapter 7. | pass |
+| Subtraction-order wording | F19 uses inbound subtraction to contrast `8 - n` with `n - 8`. | F19 | Later equation and function contexts | pass |
+
+Function notation, coordinates, graphs, slope, domain, range, negative
+substitution, properties of operations, equivalent expressions, equation
+solving, inequalities, exponents on variables, and quadratic contexts remain
+outside the pilot frontier. Tempting examples using formulas, geometry, signed
+multiplication, or later function language are intentionally rejected.
 
 ## Retrieval portfolio
 
@@ -70,7 +98,7 @@ pilot gate. Form choices are candidate roles, not quotas.
 
 | Chapter | Purpose and learner capability | Retrieval targets and planned forms | Problem or application progression | Representations and figure opportunities | Boundary or handoff |
 |---|---|---|---|---|---|
-| 1. Variables and expressions | Read algebra as meaningful notation and evaluate a represented quantity. | Variable meaning; expression/equation distinction; terms, coefficients, constants; substitution; evaluation; verbal translation. Candidate basic reasoning and IPEE problems; no form quota. | Analyzed substitution → scaffolded calculation → independent contextual translation/evaluation → tabular transfer. | Verbal, symbolic, numerical, contextual, and tabular representations. Figure decisions are deferred to pilot authoring. | Function notation, coordinates, slope, and negative substitution remain downstream. |
+| 1. Variables and expressions | Read algebra as meaningful notation and evaluate a represented quantity. | Planned: 16 bounded `Q:/A:` decisions for variable meaning, expression/equation discrimination, structural vocabulary, substitution, evaluation, translation, and diagnosis; 4 `P:/S:` transfer tasks; 0 clozes because none of the new notation is both established and best learned as an exact deletion. | P13 analyzed substitution/evaluation → P14 faded calculation → P17 independent contextual translation/evaluation → P18 tabular transfer; all retain complete IPEE stages. | Verbal, symbolic, numerical, contextual, and tabular forms. **Figures intentionally omitted:** an expression tree duplicates inbound operation structure for these simple expressions; an annotated coefficient/constant diagram would reveal the requested labels; a context-object drawing duplicates inbound equal-groups arithmetic; the authentic two-column table is clearer as accessible Markdown. | Function notation, coordinates, slope, properties/equivalence, equation solving, and negative substitution remain downstream. |
 | 2. Equivalent expressions | Rewrite an expression without changing the quantity it represents. | Operation properties, distribution, like terms, equivalence, and error diagnosis; primarily basic reasoning cards, with property-name clozes only after meaning is established. | Analyzed distribution → like-term completion → independent simplification → mixed equivalent/non-equivalent discrimination. | Symbolic forms and numerical-check tables. Candidate area model for distribution and expression tree for structure, each included only if it tests translation rather than geometry. | Equation solving is deferred; this chapter changes form, not the value sought. |
 | 3. Equations and equality | Interpret and solve one-step equations while preserving equality. | Solution meaning, equality-preserving moves, inverse-operation choice, and substitution checks; basic reasoning plus IPEE problems, no planned cloze. | Analyzed balance move → completion → independent one-step equations → mixed operation choice and error diagnosis. | Symbolic, verbal, and balance representations. Candidate balance-scale figures earn inclusion only for equality-preserving transformations. | Multi-step simplification and variables on both sides belong to Chapter 4. |
 | 4. Multi-step equations and formulas | Combine simplification and inverse operations to isolate a quantity and rearrange formulas. | Multi-step linear equations, variables on both sides, formula rearrangement, identity/contradiction cases; basic method-choice cards and IPEE problems, no planned cloze. | Fully analyzed equation → faded plan → independent formula rearrangement → mixed one/none/all-solution cases. | Symbolic equations and contextual formulas. Candidate operation-flow diagram only if it supports reversal-method selection. | Formal proof is excluded; quadratic and rational equations wait for their structures. |
@@ -97,27 +125,38 @@ Figures will be authored in TikZ and compiled to accessible SVG when visual
 inspection is itself the retrieval target. The pilot agent must record each
 include/omit decision before publication.
 
+Chapter 1 has no figure whose removal would change the retrieval decision. Its
+structural and translation targets are authentically symbolic, verbal,
+contextual, and tabular; the four plausible visual opportunities are therefore
+intentionally omitted for the reasons recorded in the Chapter 1 design row.
+
 ## Planned-versus-actual reconciliation
 
 | Chapter | Planned card types | Actual card types | Planned problems | Actual problems | Planned figures | Actual figures | Reconciliation |
 |---|---|---|---|---|---|---|---|
-| 1–14 | Planned in the chapter design ledger | 0 | Planned only | 0 | Opportunities inventoried; final include/omit decisions deferred until single-chapter authoring | 0 | Expected before the new pilot; every scaffold is empty. |
+| 1 | 16 basic, 0 cloze, 4 problem | 16 basic, 0 cloze, 4 problem | Analyzed → faded → independent contextual → tabular transfer; 4 problems | 4 problems with complete IPEE stages | 0; four opportunities intentionally omitted | 0 | Exact match. Parser counts and the front-by-front reconciliation are recorded in `.flashcards/audits/pilot-cold-start.md`. |
+| 2–14 | Planned in the chapter design ledger | 0 | Planned only | 0 | Opportunities inventoried in each row; no assets authorized before pilot approval | 0 | Later chapters remain empty and outside this job. |
 
 ## Sources and accuracy
 
-The deck-local source register is in `README.md`. Content-level verification will
-be recorded by each chapter job.
+The deck-local source register is in `README.md`. Chapter 1 content and sequence
+were checked against the official Common Core Expressions & Equations standards
+and England's statutory mathematics programme; their authority, terms, source
+role, and 2026-08-24 access date are recorded there. Cards, problems, and
+representations are original.
 
 ## Validation gate
 
 Before handoff:
 
-1. Run deterministic prerequisite and deck validation.
-2. Confirm chapter orders and dependency references are unique, resolvable, and
-   acyclic.
-3. Confirm Chapters 1–14 contain frontmatter, a title, and zero scheduled cards.
-4. Confirm no figure assets exist before pilot generation.
+1. Run deterministic prerequisite, stabilization, and deck validation.
+2. Confirm Chapter 1 contains 20 scheduled cards with unique stable IDs and that
+   no later-chapter content was materialized in the bounded workspace.
+3. Confirm every problem retains complete ordered IPEE stages and every planned
+   versus actual inventory is reconciled.
+4. Confirm the fronts-only cold-start and separate first-use scans pass with no
+   unexplained dependency.
 5. Run `git diff --check` and review the complete diff.
 
-Card or figure generation begins only through a separate approved pilot or
-single-chapter authoring job.
+Stop after this pilot for explicit human approval before authoring Chapter 2 or
+any later chapter.
