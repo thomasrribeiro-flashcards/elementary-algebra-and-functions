@@ -20,8 +20,9 @@ canonical general guidance.
   complex numbers, sequences, conic sections, and long multi-step applications
   better practiced outside SRS.
 
-Unconfirmed algebra knowledge is not mastered. Chapter 1 is the novice-first
-pilot; every later chapter remains behind the pilot approval gate.
+Unconfirmed algebra knowledge is not mastered. Chapter 1 is the approved
+novice-first pilot. This build is bounded to Chapter 2; later chapters remain
+unauthored and unavailable as inbound knowledge.
 
 ## Curriculum and prerequisite graph
 
@@ -37,7 +38,8 @@ Rejected boundary choices:
 - Coordinate notation, function notation, slope, domain, and range are not used
   to make the symbolic-language pilot appear more advanced.
 - Signed multiplication is not assumed from the prerequisite's signed-addition
-  chapter, so the pilot evaluates expressions only at nonnegative values.
+  chapter, so the authored chapters use only nonnegative factors and substituted
+  values when multiplication is required.
 - Geometry formulas and quadratic examples are reserved for chapters whose
   dependency chains establish them. Elementary square roots enter only with
   quadratic solving; radical-function analysis remains a precalculus handoff.
@@ -81,6 +83,32 @@ solving, inequalities, exponents on variables, and quadratic contexts remain
 outside the pilot frontier. Tempting examples using formulas, geometry, signed
 multiplication, or later function language are intentionally rejected.
 
+## Concept-dependency ledger — Chapter 2
+
+The inbound frontier is the complete scheduled Chapter 1 sequence plus only the
+validator-resolved arithmetic capabilities in the external deck. In particular,
+variables, terms, coefficients, constant terms, substitution, expression
+evaluation, whole-number operations, operation order, parentheses, and signed
+addition/subtraction are established. Signed multiplication is not established,
+so Chapter 2 uses nonnegative whole-number factors and substituted values.
+
+| New concept, notation, or representation | First scheduled explanation | First supported retrieval | Later application | Status |
+|---|---|---|---|---|
+| **Equivalent expressions**; agreement for every value | F01 explains the relationship and asks for a shared substituted value. | F02 retrieves the defining condition; F03 rejects a pair using a numerical-check table. | F21–F22 | pass |
+| Three-column numerical-check table | F03 explains what each expression-value column records. | F03 uses a differing row to reject equivalence. | Structural properties replace exhaustive checking from F04 onward. | pass |
+| **Property of operations** and **commutative property** | F04 explains that a valid property preserves value and introduces order-changing for addition or multiplication. | F04 rewrites one addition expression. | F06, F18, F20–F22 | pass |
+| **Associative property** and grouping change | F05 establishes the rule for addition or multiplication. | F05 rewrites one grouped sum; F06 discriminates grouping from order. | F18, F20–F22 | pass |
+| Additive and multiplicative identity properties | F07 and F08 separately explain the roles of \(0\) and \(1\). | F07 and F08 each retrieve one equivalent form. | F21 applies the additive identity; F22 applies the multiplicative identity. | pass |
+| **Distributive property** | F09 explains multiplication across every item being added inside parentheses. | F09 performs a supported rewrite; F10 retrieves the property name. | F11–F12, F20–F22 | pass |
+| **Like terms** and combining coefficients | F13 explains the same-variable criterion. | F13 identifies why a pair is like; F14 connects repeated addition to a coefficient. | F15–F18, F20–F22 | pass |
+| Constants as like terms | F17 uses the established constant-term definition and explains that constants can combine. | F17 rewrites the constant terms. | F18, F20 | pass |
+| **Simplifying an expression** as an equivalence-preserving rewrite | F19 defines the goal and contrasts an unfinished with a finished form. | F19 selects the simplified form. | F20–F22 | pass |
+
+Rejected future-facing examples include equation solving, negative-coefficient
+multiplication, exponent or polynomial vocabulary, coordinate or function
+representations, area formulas, and factoring. They depend on later chapters or
+undeclared knowledge and are unnecessary for this chapter's decisions.
+
 ## Retrieval portfolio
 
 The course prioritizes operational definitions, structural interpretation,
@@ -93,13 +121,13 @@ exponent/logarithm.
 
 ## Chapter design ledger
 
-All rows are plans only. Their cards and figures remain unauthored behind the
-pilot gate. Form choices are candidate roles, not quotas.
+The Chapter 1 and Chapter 2 rows now reconcile authored cards; Chapters 3–14
+remain plans only. Form choices are retrieval decisions, not quotas.
 
 | Chapter | Purpose and learner capability | Retrieval targets and planned forms | Problem or application progression | Representations and figure opportunities | Boundary or handoff |
 |---|---|---|---|---|---|
 | 1. Variables and expressions | Read algebra as meaningful notation and evaluate a represented quantity. | Planned: 16 bounded `Q:/A:` decisions for variable meaning, expression/equation discrimination, structural vocabulary, substitution, evaluation, translation, and diagnosis; 4 `P:/S:` transfer tasks; 0 clozes because none of the new notation is both established and best learned as an exact deletion. | P13 analyzed substitution/evaluation → P14 faded calculation → P17 independent contextual translation/evaluation → P18 tabular transfer; all retain complete IPEE stages. | Verbal, symbolic, numerical, contextual, and tabular forms. **Figures intentionally omitted:** an expression tree duplicates inbound operation structure for these simple expressions; an annotated coefficient/constant diagram would reveal the requested labels; a context-object drawing duplicates inbound equal-groups arithmetic; the authentic two-column table is clearer as accessible Markdown. | Function notation, coordinates, slope, properties/equivalence, equation solving, and negative substitution remain downstream. |
-| 2. Equivalent expressions | Rewrite an expression without changing the quantity it represents. | Operation properties, distribution, like terms, equivalence, and error diagnosis; primarily basic reasoning cards, with property-name clozes only after meaning is established. | Analyzed distribution → like-term completion → independent simplification → mixed equivalent/non-equivalent discrimination. | Symbolic forms and numerical-check tables. Candidate area model for distribution and expression tree for structure, each included only if it tests translation rather than geometry. | Equation solving is deferred; this chapter changes form, not the value sought. |
+| 2. Equivalent expressions | Rewrite an expression without changing the quantity it represents. | Planned: 16 bounded `Q:/A:` decisions for equivalence, operation properties, distribution, like terms, simplification, and diagnosis; 1 `C:` for the distributive-property name only after its meaning is retrieved; 5 `P:/S:` transfer tasks. | P11 analyzed distribution → P15 like-term completion → P18 faded two-group collection → P20 independent distribution-and-collection simplification → P22 mixed equivalent/non-equivalent decision; every problem retains complete IPEE stages. | Symbolic expressions and one accessible numerical-check table. **Figures intentionally omitted:** an area model would import undeclared geometry; a variable-tile or array model would require new visual grammar without a distinct target; an expression tree duplicates established parentheses and operation order. | Equation solving, negative-coefficient multiplication, factoring, exponents on variables, and function contexts are deferred. |
 | 3. Equations and equality | Interpret and solve one-step equations while preserving equality. | Solution meaning, equality-preserving moves, inverse-operation choice, and substitution checks; basic reasoning plus IPEE problems, no planned cloze. | Analyzed balance move → completion → independent one-step equations → mixed operation choice and error diagnosis. | Symbolic, verbal, and balance representations. Candidate balance-scale figures earn inclusion only for equality-preserving transformations. | Multi-step simplification and variables on both sides belong to Chapter 4. |
 | 4. Multi-step equations and formulas | Combine simplification and inverse operations to isolate a quantity and rearrange formulas. | Multi-step linear equations, variables on both sides, formula rearrangement, identity/contradiction cases; basic method-choice cards and IPEE problems, no planned cloze. | Fully analyzed equation → faded plan → independent formula rearrangement → mixed one/none/all-solution cases. | Symbolic equations and contextual formulas. Candidate operation-flow diagram only if it supports reversal-method selection. | Formal proof is excluded; quadratic and rational equations wait for their structures. |
 | 5. Inequalities and solution sets | Solve and represent one-variable constraints rather than single-value equalities. | Inequality meaning, boundary inclusion, negative reversal, checking, number-line graphs, and interval notation; basic figure interpretation and problems; compact symbol clozes only after visual meaning is stable. | Analyzed one-step inequality → boundary/graph completion → independent solve/check → mixed equation/inequality selection. | Symbolic, interval, and number-line forms. Separate open/closed-boundary and negative-reversal figures have distinct retrieval roles. | Systems of inequalities and optimization are outside this deck. |
@@ -115,14 +143,15 @@ pilot gate. Form choices are candidate roles, not quotas.
 
 ## Initial-learning path
 
-The pilot must begin with a scheduled front that defines a variable and gives it
-a concrete numerical meaning. Every later new term must likewise be established
+Chapter 1 begins with a scheduled front that defines a variable and gives it a
+concrete numerical meaning. Chapter 2 begins by defining equivalence through a
+supported substitution decision. Every later new term is likewise established
 on a scheduled front before less-supported retrieval or application.
 
-## Figure policy and pilot decision
+## Figure policy and chapter decisions
 
 Figures will be authored in TikZ and compiled to accessible SVG when visual
-inspection is itself the retrieval target. The pilot agent must record each
+inspection is itself the retrieval target. Each chapter records every
 include/omit decision before publication.
 
 Chapter 1 has no figure whose removal would change the retrieval decision. Its
@@ -130,33 +159,38 @@ structural and translation targets are authentically symbolic, verbal,
 contextual, and tabular; the four plausible visual opportunities are therefore
 intentionally omitted for the reasons recorded in the Chapter 1 design row.
 
+Chapter 2 also has no figure whose removal would change the retrieval decision.
+Its area model would import undeclared geometry, a variable-tile or array model
+would add visual grammar without a distinct target, and an expression tree
+would duplicate established grouping notation.
+
 ## Planned-versus-actual reconciliation
 
 | Chapter | Planned card types | Actual card types | Planned problems | Actual problems | Planned figures | Actual figures | Reconciliation |
 |---|---|---|---|---|---|---|---|
 | 1 | 16 basic, 0 cloze, 4 problem | 16 basic, 0 cloze, 4 problem | Analyzed → faded → independent contextual → tabular transfer; 4 problems | 4 problems with complete IPEE stages | 0; four opportunities intentionally omitted | 0 | Exact match. Parser counts and the front-by-front reconciliation are recorded in `.flashcards/audits/pilot-cold-start.md`. |
-| 2–14 | Planned in the chapter design ledger | 0 | Planned only | 0 | Opportunities inventoried in each row; no assets authorized before pilot approval | 0 | Later chapters remain empty and outside this job. |
+| 2 | 16 basic, 1 cloze, 5 problem | 16 basic, 1 cloze, 5 problem | Analyzed distribution → like-term completion → faded collection → independent simplification → mixed equivalence; 5 problems | 5 problems with complete IPEE stages: F11, F15, F18, F20, F22 | 0; three opportunities intentionally omitted | 0 | Exact match. The dependency, first-use, and inventory evidence is recorded in .flashcards/audits/02_equivalent_expressions-cold-start.md. |
+| 3–14 | Planned in the chapter design ledger | 0 | Planned only | 0 | Opportunities inventoried in each row; no assets authorized in this bounded build | 0 | Later chapters remain empty and outside this job. |
 
 ## Sources and accuracy
 
-The deck-local source register is in `README.md`. Chapter 1 content and sequence
-were checked against the official Common Core Expressions & Equations standards
-and England's statutory mathematics programme; their authority, terms, source
-role, and 2026-08-24 access date are recorded there. Cards, problems, and
-representations are original.
+The deck-local source register is in `README.md`. Chapter 1 and Chapter 2 scope
+and claims were checked against the official Common Core Expressions & Equations
+standards and England's statutory programme and key stage 3 guidance; their
+authority, terms, roles, and 2026-08-24 access date are recorded there. Cards,
+problems, and representations are original.
 
 ## Validation gate
 
 Before handoff:
 
 1. Run deterministic prerequisite, stabilization, and deck validation.
-2. Confirm Chapter 1 contains 20 scheduled cards with unique stable IDs and that
-   no later-chapter content was materialized in the bounded workspace.
-3. Confirm every problem retains complete ordered IPEE stages and every planned
+2. Confirm Chapter 2 contains the reconciled scheduled inventory with unique
+   stable IDs and that no later-chapter content was materialized.
+3. Confirm every Chapter 2 problem retains complete ordered IPEE stages and every planned
    versus actual inventory is reconciled.
-4. Confirm the fronts-only cold-start and separate first-use scans pass with no
-   unexplained dependency.
+4. Confirm `.flashcards/audits/02_equivalent_expressions-cold-start.md` records
+   passing fronts-only and separate first-use scans with no unexplained dependency.
 5. Run `git diff --check` and review the complete diff.
 
-Stop after this pilot for explicit human approval before authoring Chapter 2 or
-any later chapter.
+Stop after Chapter 2; later chapters are outside this bounded build.
