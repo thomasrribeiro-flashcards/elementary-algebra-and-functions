@@ -26,16 +26,17 @@ elementary nonlinear models fluently and interpretively.
   to later decks. Elementary square roots are introduced only where quadratic
   equations require them.
 
-Unconfirmed algebra knowledge is treated as unseen. Chapter 1 is the authored
-novice-first pilot and awaits human approval; Chapters 2–14 remain unauthored
-curriculum scaffolds. The final three planned chapters deliberately reach the
+Unconfirmed algebra knowledge is treated as unseen. Chapter 1 is the approved
+novice-first pilot, Chapter 2 is the authored bounded build, and Chapters 3–14
+remain unauthored curriculum scaffolds. The final three planned chapters deliberately reach the
 subject roadmap's polynomial, quadratic, rational, exponential, and logarithmic
 destination, while leaving technology-intensive and precalculus-level analysis
 to the next deck.
 
 ## Chapter map
 
-Every filename and outcome below is a curriculum plan, not scheduled content.
+The first two rows have scheduled content; the remaining rows are curriculum
+plans only.
 
 | File | Topic | Learning outcomes |
 |---|---|---|
@@ -64,8 +65,8 @@ No source prose, exercise, or figure was copied. Cards and examples are original
 
 | Source | Authority/use | License or terms | Accessed |
 |---|---|---|---|
-| [Common Core State Standards for Mathematics: Expressions & Equations](https://www.thecorestandards.org/Math/Content/EE/) and [public license](https://www.thecorestandards.org/public-license/) | NGA Center/CCSSO standards used both as a curriculum-scope cross-check and as a Chapter 1 content-sequence verification source: letters stand for numbers, expression parts are read structurally, values are substituted to evaluate expressions, and variables translate mathematical or real-world quantities. It does not serve as blanket verification of later chapters. | Copyright NGA Center/CCSSO; the public license permits limited copying, publication, distribution, and display for uses supporting the initiative with required attribution. No standards wording, example, exercise, or figure was copied into this deck. | 2026-08-24 |
-| [England national curriculum: Mathematics programmes of study](https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study) | UK Department for Education statutory programme used to cross-check the progression from arithmetic structure through algebraic notation, expression/equation vocabulary, substitution, translation, representation changes, proportional relations, and linear/simple quadratic functions. It verifies the Chapter 1 boundary but not the wording of individual cards. | Crown copyright under the [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/); consulted for capability structure only. No wording, exercise, or asset was copied. | 2026-08-24 |
+| [Common Core State Standards for Mathematics: Expressions & Equations](https://www.thecorestandards.org/Math/Content/EE/) and [properties-of-operations table](https://www.thecorestandards.org/Math/Content/mathematics-glossary/Table-3/), with [public license](https://www.thecorestandards.org/public-license/) | NGA Center/CCSSO standards used as a curriculum-scope cross-check and claim-verification source. Chapter 1 uses the variable, expression-part, and evaluation progression. Chapter 2 uses the definition of equivalent expressions, the operation-property identities, and the progression through distribution and like-term rewrites. This does not serve as blanket verification of later chapters. | Copyright NGA Center/CCSSO; the public license permits limited copying, publication, distribution, and display for uses supporting the initiative with required attribution. No standards wording, example, exercise, or figure was copied into this deck. | 2026-08-24 |
+| [England national curriculum: Mathematics programmes of study](https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study) and [key stage 3 mathematics guidance](https://assets.publishing.service.gov.uk/media/621629ac8fa8f5490d52ee78/KS3_NonStatutory_Guidance_Sept_2021_FINAL_NCETM.pdf) | UK Department for Education statutory programme and non-statutory guidance used to cross-check the progression from arithmetic structure through algebraic notation, substitution, equivalence, collecting like terms, and distribution. The guidance supports Chapter 2's arithmetic-to-symbolic bridge and misconception checks; it does not supply card wording. | Crown copyright under the [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/); consulted for capability structure and claim verification only. No wording, exercise, or asset was copied. | 2026-08-24 |
 | [Australian Curriculum: Mathematics v9.0](https://www.australiancurriculum.edu.au/curriculum-information/understand-this-learning-area/mathematics) and [copyright terms](https://v8.australiancurriculum.edu.au/copyright-and-terms-of-use/) | ACARA curriculum used as an international cross-check that algebra should connect properties, equivalence, variables, equations, and symbolic, numerical, and graphical representations across an increasing progression. | ACARA curriculum material is generally CC BY 4.0 except identified exclusions and third-party material; consulted for scope and sequence only, with no curriculum wording or assets reproduced. | 2026-08-20 |
 | [OpenStax, *Elementary Algebra 2e*, preface](https://openstax.org/books/elementary-algebra-2e/pages/preface) | Rice University/OpenStax course-scope metadata used to stress-test the progression from foundations through equations, graphs, systems, polynomials, factoring, rational expressions, and roots. | Page identifies CC BY-NC-SA 4.0 terms and also restricts generative-AI ingestion. Consulted only for public chapter-outline metadata; no text, exercise, or figure was copied, adapted, or ingested as deck content. | 2026-07-20 |
 | [OpenStax, *Intermediate Algebra 2e*, preface](https://openstax.org/books/intermediate-algebra-2e/pages/preface) | Rice University/OpenStax boundary check used to defer deeper rational, radical, logarithmic, conic, and sequence material while retaining an honest bridge to quadratic and exponential models. | OpenStax terms apply; consulted only for public scope metadata. No source text, exercise, or figure was copied or adapted. | 2026-07-20 |
