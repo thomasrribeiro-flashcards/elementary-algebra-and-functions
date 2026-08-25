@@ -1,8 +1,14 @@
 +++
 order = 1
 subject = "mathematics"
+curriculum_provider = "openai"
+curriculum_model = "gpt-5.6-sol"
+curriculum_reasoning_effort = "high"
+curriculum_run_id = "request-11"
+authoring_provider = "openai"
 authoring_model = "gpt-5.6-sol"
 authoring_reasoning_effort = "high"
+authoring_run_id = "request-21"
 tags = ["elementary-algebra", "variables", "expressions", "substitution"]
 prerequisites = []
 provides = [

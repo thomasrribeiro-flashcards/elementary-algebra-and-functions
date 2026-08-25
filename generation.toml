@@ -1,0 +1,41 @@
+schema_version = 1
+
+[[runs]]
+run_id = "request-11"
+request_id = "11"
+operation = "chapter-curriculum"
+artifacts = ["CARD_README.md", "README.md", "deck.toml", "flashcards/01_variables_and_expressions.md", "flashcards/02_equivalent_expressions.md", "flashcards/03_equations_and_equality.md", "flashcards/04_multi_step_equations_and_formulas.md", "flashcards/05_inequalities_and_solution_sets.md", "flashcards/06_coordinate_plane_and_relations.md", "flashcards/07_functions_across_representations.md", "flashcards/08_proportional_and_linear_functions.md", "flashcards/09_equations_of_lines.md", "flashcards/10_systems_of_linear_equations.md", "flashcards/11_exponents_and_polynomial_expressions.md", "flashcards/12_factoring_and_quadratic_functions.md", "flashcards/13_rational_expressions_and_functions.md", "flashcards/14_exponential_and_logarithmic_functions.md"]
+provider_id = "openai"
+model_id = "gpt-5.6-sol"
+reasoning_effort = "high"
+generated_at = "2026-08-20T11:12:36-07:00"
+generation_mode = "replace"
+provenance_source = "website-request"
+
+[[runs]]
+run_id = "request-21"
+request_id = "21"
+operation = "chapter-content"
+artifacts = [".flashcards/audits/pilot-cold-start.md", "CARD_README.md", "README.md", "deck.toml", "flashcards/01_variables_and_expressions.md"]
+provider_id = "openai"
+model_id = "gpt-5.6-sol"
+reasoning_effort = "high"
+generated_at = "2026-08-24T14:07:55-07:00"
+generation_mode = "generate"
+chapter_id = "01_variables_and_expressions"
+base_commit = "19e6d10132e4c930cfd814222ca037e7488640cf"
+provenance_source = "website-request"
+
+[[runs]]
+run_id = "request-22"
+request_id = "22"
+operation = "chapter-content"
+artifacts = [".flashcards/audits/02_equivalent_expressions-cold-start.md", "CARD_README.md", "README.md", "flashcards/02_equivalent_expressions.md"]
+provider_id = "openai"
+model_id = "gpt-5.6-sol"
+reasoning_effort = "high"
+generated_at = "2026-08-24T14:40:46-07:00"
+generation_mode = "generate"
+chapter_id = "02_equivalent_expressions"
+base_commit = "a9b8aa44468d044f4af27a91c5ecda93bf2a5cf7"
+provenance_source = "website-request"

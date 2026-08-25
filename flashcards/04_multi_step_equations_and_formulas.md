@@ -1,8 +1,10 @@
 +++
 order = 4
 subject = "mathematics"
+curriculum_provider = "openai"
 curriculum_model = "gpt-5.6-sol"
 curriculum_reasoning_effort = "high"
+curriculum_run_id = "request-11"
 tags = ["elementary-algebra", "linear-equations", "formulas", "equation-solving"]
 prerequisites = [
   "chapter:02_equivalent_expressions",
