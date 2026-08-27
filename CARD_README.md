@@ -21,8 +21,9 @@ canonical general guidance.
   better practiced outside SRS.
 
 Unconfirmed algebra knowledge is not mastered. Chapter 1 is the approved
-novice-first pilot. This build is bounded to Chapter 2; later chapters remain
-unauthored and unavailable as inbound knowledge.
+novice-first pilot. This build is bounded to Chapter 3. Its resolved local
+closure contains Chapter 1 only; Chapter 2 and later chapters remain
+unavailable as inbound knowledge.
 
 ## Curriculum and prerequisite graph
 
@@ -109,6 +110,38 @@ multiplication, exponent or polynomial vocabulary, coordinate or function
 representations, area formulas, and factoring. They depend on later chapters or
 undeclared knowledge and are unnecessary for this chapter's decisions.
 
+## Concept-dependency ledger — Chapter 3 design
+
+The frozen inbound frontier is the complete scheduled Chapter 1 sequence plus
+the validator-resolved arithmetic capabilities in the external prerequisite
+deck. It includes equations as same-value statements, variables, coefficients,
+substitution, expression evaluation, verbal-expression translation, the four
+whole-number operations, fraction and decimal operations, signed addition and
+subtraction, and inverse-operation checks. Chapter 2 is not in the resolved
+closure, so equivalent-expression terminology and named properties of
+operations are not assumed. Signed multiplication is also not inferred.
+
+| New concept, notation, or representation | First scheduled explanation | First supported retrieval | Later application | Design status |
+|---|---|---|---|---|
+| **Solution of an equation** as a value that makes the equation true | F01 defines the term through substitution into `x + 3 = 8`. | F01 explains why `5` is a solution; F02 checks a non-solution. | F03 and all problems | planned |
+| Solving versus checking | F03 defines solving as finding a solution and checking as testing a candidate by substitution. | F03 selects the checking action. | Every IPEE EVALUATE stage | planned |
+| **Equality-preserving move**; same operation on both sides | F04 connects an equation's same-value meaning to applying one operation to both sides. | F04 states the requirement; F05 diagnoses a one-sided change. | F06–F18 | planned |
+| **One-step equation** and choosing an inverse operation | F06 defines a one-step equation as one solved with one equality-preserving inverse-operation move. | F06 chooses the move for `x + 4 = 11`. | F07–F18 | planned |
+| Addition equation | F07 gives the first fully analyzed solve. | F07 | F14, F16 | planned |
+| Subtraction equation | F08 explains that addition undoes subtraction. | F08 chooses the move; F09 completes the solve. | F18 | planned |
+| Multiplication equation; division of both sides by a nonzero number | F10 explains the valid division move and inverse relationship. | F10 chooses the move; F11 executes it. | F17–F18 | planned |
+| Division equation; multiplication of both sides | F12 explains the valid multiplication move and inverse relationship. | F12 chooses the move; F13 executes it. | F17 | planned |
+| Negative equation solution without signed multiplication | F14 uses inbound signed subtraction in `x + 7 = 3`. | F14 | Closing discrimination | planned |
+| Verbal statement translated to an equation | F15 extends inbound expression translation by adding the already established equality assertion. | F15 | F16 contextual equation | planned |
+| Decimal-coefficient one-step equation | F18 uses inbound decimal operations after multiplication equations are established. | F18 | None; closing mixed transfer | planned |
+
+Rejected examples include named Chapter 2 operation properties, simplifying
+either side, variables on both sides, multi-step equations, formula
+rearrangement, identity or contradiction cases, inequalities, coordinates,
+functions, and signed multiplication. A physical balance-scale figure is also
+omitted: it would duplicate the explicit same-value/same-operation decision and
+introduce new visual grammar without an independently useful retrieval target.
+
 ## Retrieval portfolio
 
 The course prioritizes operational definitions, structural interpretation,
@@ -121,14 +154,14 @@ exponent/logarithm.
 
 ## Chapter design ledger
 
-The Chapter 1 and Chapter 2 rows now reconcile authored cards; Chapters 3–14
-remain plans only. Form choices are retrieval decisions, not quotas.
+The Chapter 1 through Chapter 3 rows now reconcile authored cards; Chapters
+4–14 remain plans only. Form choices are retrieval decisions, not quotas.
 
 | Chapter | Purpose and learner capability | Retrieval targets and planned forms | Problem or application progression | Representations and figure opportunities | Boundary or handoff |
 |---|---|---|---|---|---|
 | 1. Variables and expressions | Read algebra as meaningful notation and evaluate a represented quantity. | Planned: 16 bounded `Q:/A:` decisions for variable meaning, expression/equation discrimination, structural vocabulary, substitution, evaluation, translation, and diagnosis; 4 `P:/S:` transfer tasks; 0 clozes because none of the new notation is both established and best learned as an exact deletion. | P13 analyzed substitution/evaluation → P14 faded calculation → P17 independent contextual translation/evaluation → P18 tabular transfer; all retain complete IPEE stages. | Verbal, symbolic, numerical, contextual, and tabular forms. **Figures intentionally omitted:** an expression tree duplicates inbound operation structure for these simple expressions; an annotated coefficient/constant diagram would reveal the requested labels; a context-object drawing duplicates inbound equal-groups arithmetic; the authentic two-column table is clearer as accessible Markdown. | Function notation, coordinates, slope, properties/equivalence, equation solving, and negative substitution remain downstream. |
 | 2. Equivalent expressions | Rewrite an expression without changing the quantity it represents. | Planned: 16 bounded `Q:/A:` decisions for equivalence, operation properties, distribution, like terms, simplification, and diagnosis; 1 `C:` for the distributive-property name only after its meaning is retrieved; 5 `P:/S:` transfer tasks. | P11 analyzed distribution → P15 like-term completion → P18 faded two-group collection → P20 independent distribution-and-collection simplification → P22 mixed equivalent/non-equivalent decision; every problem retains complete IPEE stages. | Symbolic expressions and one accessible numerical-check table. **Figures intentionally omitted:** an area model would import undeclared geometry; a variable-tile or array model would require new visual grammar without a distinct target; an expression tree duplicates established parentheses and operation order. | Equation solving, negative-coefficient multiplication, factoring, exponents on variables, and function contexts are deferred. |
-| 3. Equations and equality | Interpret and solve one-step equations while preserving equality. | Solution meaning, equality-preserving moves, inverse-operation choice, and substitution checks; basic reasoning plus IPEE problems, no planned cloze. | Analyzed balance move → completion → independent one-step equations → mixed operation choice and error diagnosis. | Symbolic, verbal, and balance representations. Candidate balance-scale figures earn inclusion only for equality-preserving transformations. | Multi-step simplification and variables on both sides belong to Chapter 4. |
+| 3. Equations and equality | Interpret and solve one-step equations while preserving equality. | Planned: 11 bounded `Q:/A:` decisions for solution meaning, solving/checking, equality-preserving moves, inverse-operation choice, verbal translation, and diagnosis; 7 `P:/S:` transfer tasks; 0 clozes because the targets require reasoning or execution rather than exact deletion. | F07 analyzed addition → F09 subtraction completion → F11 faded multiplication → F13 independent division → F14 signed-result transfer → F16 contextual translation/solve → F18 mixed decimal-coefficient equation; all retain complete IPEE stages. | Symbolic, verbal, whole-number, signed-number, contextual, and decimal forms. **Figures intentionally omitted:** a balance scale duplicates the explicit same-value/same-operation decision and adds visual grammar; an operation-flow diagram would preselect the inverse operation instead of testing it; a before/after equation diagram is less authentic than the equation transformations themselves. | Equivalent-expression property names are unavailable; multi-step simplification and variables on both sides belong to Chapter 4. |
 | 4. Multi-step equations and formulas | Combine simplification and inverse operations to isolate a quantity and rearrange formulas. | Multi-step linear equations, variables on both sides, formula rearrangement, identity/contradiction cases; basic method-choice cards and IPEE problems, no planned cloze. | Fully analyzed equation → faded plan → independent formula rearrangement → mixed one/none/all-solution cases. | Symbolic equations and contextual formulas. Candidate operation-flow diagram only if it supports reversal-method selection. | Formal proof is excluded; quadratic and rational equations wait for their structures. |
 | 5. Inequalities and solution sets | Solve and represent one-variable constraints rather than single-value equalities. | Inequality meaning, boundary inclusion, negative reversal, checking, number-line graphs, and interval notation; basic figure interpretation and problems; compact symbol clozes only after visual meaning is stable. | Analyzed one-step inequality → boundary/graph completion → independent solve/check → mixed equation/inequality selection. | Symbolic, interval, and number-line forms. Separate open/closed-boundary and negative-reversal figures have distinct retrieval roles. | Systems of inequalities and optimization are outside this deck. |
 | 6. Coordinate plane and relations | Treat ordered pairs as solutions and translate tables or equations into plotted relations. | Axes, origin, ordered-pair order, scale, relation, and solution membership; figure-reading and translation basics plus plotting problems, no planned cloze. | Guided plotting → read a point and scale → independent table-to-plot → mixed equation/graph membership check. | Tables, ordered pairs, and coordinate graphs. Point reading, scale diagnosis, and equation-solution membership need separate figure opportunities. | Function tests and function notation wait for Chapter 7. |
@@ -164,33 +197,40 @@ Its area model would import undeclared geometry, a variable-tile or array model
 would add visual grammar without a distinct target, and an expression tree
 would duplicate established grouping notation.
 
+Chapter 3 uses equations themselves as the authentic equality representation.
+A balance scale would duplicate the same-value/same-operation decision while
+adding physical diagram grammar, an operation-flow diagram would reveal the
+inverse-operation choice, and a before/after equation diagram would restate the
+symbolic work. All three opportunities are intentionally omitted.
+
 ## Planned-versus-actual reconciliation
 
 | Chapter | Planned card types | Actual card types | Planned problems | Actual problems | Planned figures | Actual figures | Reconciliation |
 |---|---|---|---|---|---|---|---|
 | 1 | 16 basic, 0 cloze, 4 problem | 16 basic, 0 cloze, 4 problem | Analyzed → faded → independent contextual → tabular transfer; 4 problems | 4 problems with complete IPEE stages | 0; four opportunities intentionally omitted | 0 | Exact match. Parser counts and the front-by-front reconciliation are recorded in `.flashcards/audits/pilot-cold-start.md`. |
 | 2 | 16 basic, 1 cloze, 5 problem | 16 basic, 1 cloze, 5 problem | Analyzed distribution → like-term completion → faded collection → independent simplification → mixed equivalence; 5 problems | 5 problems with complete IPEE stages: F11, F15, F18, F20, F22 | 0; three opportunities intentionally omitted | 0 | Exact match. The dependency, first-use, and inventory evidence is recorded in .flashcards/audits/02_equivalent_expressions-cold-start.md. |
-| 3–14 | Planned in the chapter design ledger | 0 | Planned only | 0 | Opportunities inventoried in each row; no assets authorized in this bounded build | 0 | Later chapters remain empty and outside this job. |
+| 3 | 11 basic, 0 cloze, 7 problem | 11 basic, 0 cloze, 7 problem | Analyzed → completion → faded → independent symbolic/signed/contextual/mixed; 7 problems | 7 problems with complete IPEE stages: F07, F09, F11, F13, F14, F16, F18 | 0; three opportunities intentionally omitted | 0 | Exact match. The dependency, first-use, IPEE, and inventory evidence is recorded in `.flashcards/audits/03_equations_and_equality-cold-start.md`. |
+| 4–14 | Planned in the chapter design ledger | 0 | Planned only | 0 | Opportunities inventoried in each row; no assets authorized in this bounded build | 0 | Later chapters remain empty and outside this job. |
 
 ## Sources and accuracy
 
-The deck-local source register is in `README.md`. Chapter 1 and Chapter 2 scope
-and claims were checked against the official Common Core Expressions & Equations
-standards and England's statutory programme and key stage 3 guidance; their
-authority, terms, roles, and 2026-08-24 access date are recorded there. Cards,
-problems, and representations are original.
+The deck-local source register is in `README.md`. Chapter 3 scope and claims are
+being checked against the official Common Core Expressions & Equations standards
+and England's statutory programme and key stage 3 guidance; their authority,
+terms, roles, and access dates are recorded there. Cards, problems, and
+representations are original.
 
 ## Validation gate
 
 Before handoff:
 
 1. Run deterministic prerequisite, stabilization, and deck validation.
-2. Confirm Chapter 2 contains the reconciled scheduled inventory with unique
+2. Confirm Chapter 3 contains the reconciled scheduled inventory with unique
    stable IDs and that no later-chapter content was materialized.
-3. Confirm every Chapter 2 problem retains complete ordered IPEE stages and every planned
-   versus actual inventory is reconciled.
-4. Confirm `.flashcards/audits/02_equivalent_expressions-cold-start.md` records
+3. Confirm every Chapter 3 problem retains complete ordered IPEE stages and the
+   planned-versus-actual inventory is reconciled.
+4. Confirm `.flashcards/audits/03_equations_and_equality-cold-start.md` records
    passing fronts-only and separate first-use scans with no unexplained dependency.
 5. Run `git diff --check` and review the complete diff.
 
-Stop after Chapter 2; later chapters are outside this bounded build.
+Stop after Chapter 3; later chapters are outside this bounded build.
